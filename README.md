@@ -1,6 +1,6 @@
-# 🛒 Marketplace API - Go
+# 🛒 Products API - Go
 
-Uma API REST para marketplace construída com **Go**, **Gin Framework** e **PostgreSQL**.
+Uma API REST construída com **Go**, **Gin Framework** e **PostgreSQL**.
 
 ## 🚀 Funcionalidades
 
@@ -182,10 +182,6 @@ require (
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 👨‍💻 Autor
 
