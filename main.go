@@ -16,6 +16,7 @@ import (
 // @title API de Produtos
 // @version 1.0
 // @description Esta é a documentação da API de Produtos
+// @host      localhost:8080
 // @BasePath /
 func main() {
 
@@ -29,7 +30,7 @@ func main() {
 
 	router := gin.Default()
 
-	docs.SwaggerInfo.BasePath = "/api/v1"
+	docs.SwaggerInfo.BasePath = "/"
 	router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 	productRoutes := router.Group("/product")

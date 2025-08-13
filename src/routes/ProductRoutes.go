@@ -11,4 +11,5 @@ func ProductRoutes(r *gin.RouterGroup) {
 	r.GET("/:id", controllers.GetProductById)
 	r.GET("/", controllers.GetAllProducts)
 	r.PUT("/:id", controllers.UpdateProduct)
+	r.DELETE("/:id", controllers.DeleteProduct)
 }
