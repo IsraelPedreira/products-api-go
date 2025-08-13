@@ -187,6 +187,6 @@ require (
 
 **Israel Pedreira**
 - GitHub: [@IsraelPedreira](https://github.com/IsraelPedreira)
-- LinkedIn: [Israel Pedreira](https://linkedin.com/in/israelpedreiraa)
+- LinkedIn: [Israel Pedreira](https://www.linkedin.com/in/israel-pedreira/)
 
 
