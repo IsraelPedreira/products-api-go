@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"marketplace-go/src/database"
+	"marketplace-go/src/configuration/database"
 	"marketplace-go/src/models"
 	"net/http"
 

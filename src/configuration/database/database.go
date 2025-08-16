@@ -11,10 +11,10 @@ import (
 var DB *gorm.DB
 
 func Connect() {
-	host := os.Getenv("HOST")
-	user := os.Getenv("USER")
-	pass := os.Getenv("PASSWORD")
-	port := os.Getenv("PORT")
+	host := os.Getenv("DB_HOST")
+	user := os.Getenv("DB_USER")
+	pass := os.Getenv("DB_PASSWORD")
+	port := os.Getenv("DB_PORT")
 	db_name := os.Getenv("DB_NAME")
 
 	dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s", host, user, pass, db_name, port)

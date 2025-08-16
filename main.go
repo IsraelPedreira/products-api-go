@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	docs "marketplace-go/docs"
-	"marketplace-go/src/database"
+	"marketplace-go/src/configuration/database"
 	"marketplace-go/src/models"
 	"marketplace-go/src/routes"
 
@@ -22,11 +22,13 @@ func main() {
 
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatal("Error loading .env file")
+		log.Println("Error loading .env file")
 	}
 
 	database.Connect()
 	database.DB.AutoMigrate(&models.Product{})
+
+	gin.SetMode(gin.ReleaseMode)
 
 	router := gin.Default()
 
