@@ -19,6 +19,7 @@ Uma API REST construída com **Go**, **Gin Framework** e **PostgreSQL**.
 - **PostgreSQL** - Banco de dados
 - **Swagger** - Documentação da API
 - **Docker** - Containerização
+- **NGINX** - Proxy reverso e load balancer
 
 ## 📋 Pré-requisitos
 
